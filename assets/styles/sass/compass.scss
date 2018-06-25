@@ -1,0 +1,21 @@
+@import "config";
+
+h1 {
+	height: $heightTitle;
+	line-height: $heightTitle;
+	font-size: 45px;
+	color: $mainColor;
+}
+
+
+.text {
+	font-size: 20px;
+	
+	&.mainColor {
+		color: $mainColor;
+	}
+	
+	a {
+		font-size: 10px;
+	}
+}
